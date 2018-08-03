@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   font-family: 'Amatic SC', cursive;
-  background-color: yellow;
+  background-color: #a42102;
 }
 
 .navbar {
@@ -42,8 +42,8 @@ h2 {
    color: black;
    text-align: center;
    padding: 14px 16px;
-   color: white;
    color: black;
+   font-size: 22px;
  }
 
  .navbar li a:hover {
