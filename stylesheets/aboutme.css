@@ -7,13 +7,12 @@ body {
 .navbar {
   margin: 0px;
   padding: 18px;
-  /* background-color:hsla(290,60%,70%,0.0); */
   text-decoration: none;
-  background-color: blue;
+  background-color: transparent;
 }
 
-h1 {
-  font-size: 40px;
+h2 {
+  font-size: 100px;
 }
 
 .parallax {
@@ -21,30 +20,32 @@ h1 {
   background-position: center;
   padding: 50px;
   color: white;
+  height: 750px;
   background-repeat: none;
   background-size: cover;
-  background-color: yellow;
+  background-color: orange;
 }
 
- ul {
+ .navbar ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
    overflow: hidden;
  }
 
- li {
+ .navbar li {
    float:left;
  }
 
- li a {
+ .navbar li a {
    display: block;
    color: black;
    text-align: center;
    padding: 14px 16px;
    color: white;
+   color: black;
  }
 
- li a:hover {
-   background-color: none;
+ .navbar li a:hover {
+   background-color: orange;
  }
