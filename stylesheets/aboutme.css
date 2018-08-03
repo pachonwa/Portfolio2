@@ -4,7 +4,7 @@ body {
   background-color: yellow;
 }
 
-#navbar {
+.navbar {
   margin: 0px;
   padding: 18px;
   /* background-color:hsla(290,60%,70%,0.0); */
@@ -12,6 +12,9 @@ body {
   background-color: blue;
 }
 
+h1 {
+  font-size: 40px;
+}
 
 .parallax {
   /* background-image: url("picture.jpg"); */
