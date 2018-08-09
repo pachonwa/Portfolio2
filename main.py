@@ -7,12 +7,12 @@ env = jinja2.Environment(
     extensions=['jinja2.ext.autoescape'],
     autoescape=True)
 
-class MainPage(webapp2.RequestHandler):
+class AboutPage(webapp2.RequestHandler):
     def get(self):
         template = env.get_template("templates/aboutme.html")
         self.response.write(template.render())
 
 
 app = webapp2.WSGIApplication([
-    ('/', MainPage),
+    ('/', AboutPage),
 ], debug=True)
